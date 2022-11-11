@@ -1,5 +1,5 @@
 "
-" FILE: tree.vim
+" FILE: filetree.vim
 "
 " CREATED: 2019-10-27
 "
@@ -33,7 +33,7 @@ let s:ICON_FILE       = "\U1F5CE"
 " other stuff: ☢ (RADIOACTIVE SIGN)
 let s:ICON_OTHER      = "\u2622"
 
-function! tree#Tree(...)
+function! filetree#Tree(...)
 
     let s:DirTree = s:ReadDir(fnamemodify('.', ':p'))
 
